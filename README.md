@@ -4,7 +4,7 @@ Brainiac e um app para organizar uma liguinha de Magic: The Gathering no formato
 
 ## Objetivo do primeiro teste
 
-Validar se um painel web simples consegue substituir, com confianca, os fluxos mais trabalhosos do dia a dia da liguinha:
+Validar se um app multiplataforma consegue substituir, com confianca, os fluxos mais trabalhosos do dia a dia da liguinha:
 
 1. inscricao no evento;
 2. organizacao das mesas por rodada;
@@ -24,18 +24,23 @@ Validar se um painel web simples consegue substituir, com confianca, os fluxos m
 - geracao das rodadas seguintes a partir do ranking parcial do dia;
 - validacao de resultados pelo conselho antes de a rodada seguinte ser montada;
 - leaderboard do dia e leaderboard geral da season.
+- app Flutter para web, Android e iOS;
+- codigo do evento da Wizard disponivel para copia perto do inicio do evento.
 
 ## Documentacao inicial
 
 - [Visao do produto](docs/product-brief.md)
 - [Regras de negocio](docs/rules.md)
 - [Modelo de dominio](docs/domain-model.md)
+- [Arquitetura inicial](docs/architecture.md)
 - [Backlog inicial](docs/backlog.md)
 - [Decisoes em aberto](docs/open-decisions.md)
+- [Decisoes arquiteturais](docs/decisions/)
 
 ## Principios do MVP
 
 - resolver primeiro o trabalho do organizador e do conselho;
 - manter o ranking derivado de resultados validados;
 - preferir validacao manual onde a automacao ainda nao estiver provada;
-- deixar login de jogadores e tracking detalhado de partida para fases posteriores.
+- tratar web e mobile como superficies de primeira classe;
+- deixar tracking detalhado de partida para fases posteriores.

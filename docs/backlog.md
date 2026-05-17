@@ -8,6 +8,7 @@
 - criar formulario publico de inscricao no evento;
 - criar painel de conferencia para conselho;
 - registrar confirmacao de presenca, pedido da Vault, pagamento e deck;
+- exibir codigo da Wizard copiavel para os jogadores perto do inicio do evento;
 - gerar rodada 1 a partir do ranking geral da season;
 - gerar rodadas 2 a 4 a partir do ranking parcial do evento;
 - registrar resultados de mesa;
@@ -17,7 +18,6 @@
 
 ## Pos-piloto
 
-- login individual de jogadores;
 - historico de participacao;
 - pagina publica da season;
 - exportacao simples de standings;
@@ -31,4 +31,4 @@
 - notificacoes;
 - estatisticas avancadas;
 - analises por deck e jogador;
-- mobile app nativo, se fizer sentido.
+- notificacoes push para lembretes e codigo do evento.

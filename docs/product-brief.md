@@ -14,11 +14,12 @@ Essas atividades consomem tempo do organizador e do conselho, aumentam a chance 
 
 ## Proposta
 
-Criar um app web para apoiar a operacao completa dos eventos:
+Criar um app multiplataforma para apoiar a operacao completa dos eventos:
 
 - antes do evento, os jogadores se inscrevem e enviam as informacoes necessarias;
 - durante o evento, o organizador gera mesas e acompanha as rodadas;
 - o conselho valida resultados e decks;
+- perto do inicio do evento, os jogadores conseguem copiar o codigo da Wizard no proprio app;
 - ao final, o sistema atualiza automaticamente o ranking do dia e da season.
 
 ## Publico principal
@@ -38,22 +39,20 @@ O primeiro teste precisa permitir:
 5. validar decks manualmente;
 6. gerar pods para as 4 rodadas;
 7. registrar e validar resultados;
-8. exibir ranking do dia;
-9. atualizar ranking geral da season.
+8. exibir codigo da Wizard copiavel perto do inicio do evento;
+9. exibir ranking do dia;
+10. atualizar ranking geral da season.
 
 ## Fora do MVP
 
-- login individual completo para todos os jogadores;
 - tracking detalhado da partida;
 - verificacao automatica de preco dos decks;
 - estatisticas avancadas;
 - notificacoes;
-- app mobile nativo;
 - suporte a multiplos formatos alem do Commander multiplayer.
 
 ## Evolucao prevista
 
-- login de jogadores;
 - historico pessoal de participacao e decks;
 - verificacao automatizada de budget;
 - suporte a dia de troca de decks;
