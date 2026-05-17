@@ -15,9 +15,10 @@
 2. O pagamento sera apenas marcado manualmente ou havera integracao futura?
 3. Quais informacoes do deck precisam ser exibidas no painel do conselho alem do link?
 4. O jogador podera trocar o deck inscrito ate qual momento?
+5. Qual sera a janela exata para liberar o codigo da Wizard antes do evento?
 
 ## Tecnicas
 
-1. Qual stack web sera adotada para o MVP?
+1. Qual banco relacional sera adotado no deploy inicial?
 2. Como sera feita a autenticacao do organizador e do conselho na primeira fase?
-3. Quais visoes devem existir no GitHub Project desde o inicio?
+3. O login Google sera exigido para todos os jogadores desde o MVP ou apenas para equipe administrativa?
